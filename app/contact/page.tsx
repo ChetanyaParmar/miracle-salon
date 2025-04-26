@@ -176,7 +176,7 @@ export default function ContactPage() {
 
       <div className="w-full h-[500px] relative">
         <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d193595.15830869428!2d-74.11976397304605!3d40.69766374874431!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew%20York%2C%20NY%2C%20USA!5e0!3m2!1sen!2s!4v1650000000000!5m2!1sen!2s"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d643.9414220174701!2d75.06085048646791!3d24.077473413640284!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39642de993f7dba9%3A0x950e37c63b7b3e96!2sMIRACLE%20SALON%20%26%20ACADEMY!5e0!3m2!1sen!2sin!4v1745665389617!5m2!1sen!2sin"
           width="100%"
           height="100%"
           style={{ border: 0 }}
