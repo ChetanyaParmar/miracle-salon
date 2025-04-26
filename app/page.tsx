@@ -2,6 +2,7 @@ import Link from "next/link"
 import Image from "next/image"
 import { ArrowRight, Phone, Star } from "lucide-react"
 import { Button } from "@/components/ui/button"
+import '@/styles/fonts.css'
 
 export default function Home() {
   return (
@@ -10,7 +11,7 @@ export default function Home() {
       <section className="relative w-full min-h-screen flex items-center justify-center overflow-hidden">
         <div className="absolute inset-0 z-0">
           <Image
-            src="/placeholder.svg?height=1080&width=1920"
+            src="/assets/hero.png"
             alt="Salon interior"
             fill
             className="object-cover"
@@ -23,7 +24,7 @@ export default function Home() {
             <div className="inline-block px-3 py-1 border border-white/20 backdrop-blur-sm rounded-full text-sm mb-2">
               Premium Beauty Experience
             </div>
-            <h1 className="text-5xl md:text-7xl font-light tracking-tight">
+            <h1 className="text-5xl md:text-7xl font-Folies tracking-tight">
               MIRACLE<span className="text-rose-300">.</span>
             </h1>
             <p className="text-xl md:text-2xl font-light text-white/80 max-w-md">
@@ -81,7 +82,7 @@ export default function Home() {
             {/* Hair Styling - Large Tile */}
             <div className="lg:col-span-2 lg:row-span-2 group relative overflow-hidden rounded-3xl">
               <Image
-                src="/placeholder.svg?height=800&width=800"
+                src="/assets/hairstyle.png?height=800&width=800"
                 alt="Hair styling"
                 width={800}
                 height={800}
@@ -96,7 +97,7 @@ export default function Home() {
                 </p>
                 <Link
                   href="/services/hair"
-                  className="inline-flex items-center text-rose-300 hover:text-rose-200 transition-colors"
+                  className="inline-flex items-center text-[#0076CE] hover:text-rose-100 transition-colors"
                 >
                   Explore <ArrowRight className="ml-2 h-4 w-4" />
                 </Link>
@@ -106,7 +107,7 @@ export default function Home() {
             {/* Makeup */}
             <div className="group relative overflow-hidden rounded-3xl">
               <Image
-                src="/placeholder.svg?height=400&width=400"
+                src="/assets/makeup.png?height=400&width=400"
                 alt="Makeup"
                 width={400}
                 height={400}
@@ -118,7 +119,7 @@ export default function Home() {
                 <p className="text-white/80 mb-3 text-sm">Professional makeup for any occasion.</p>
                 <Link
                   href="/services/makeup"
-                  className="inline-flex items-center text-rose-300 hover:text-rose-200 transition-colors text-sm"
+                  className="inline-flex items-center text-[#0076CE] hover:text-rose-100 transition-colors text-sm"
                 >
                   Explore <ArrowRight className="ml-2 h-3 w-3" />
                 </Link>
@@ -128,7 +129,7 @@ export default function Home() {
             {/* Nail Care */}
             <div className="group relative overflow-hidden rounded-3xl">
               <Image
-                src="/placeholder.svg?height=400&width=400"
+                src="/assets/nailart.png?height=400&width=400"
                 alt="Nail care"
                 width={400}
                 height={400}
@@ -140,7 +141,7 @@ export default function Home() {
                 <p className="text-white/80 mb-3 text-sm">Manicures, pedicures, and nail art.</p>
                 <Link
                   href="/services/nails"
-                  className="inline-flex items-center text-rose-300 hover:text-rose-200 transition-colors text-sm"
+                  className="inline-flex items-center text-[#0076CE] hover:text-rose-100 transition-colors text-sm"
                 >
                   Explore <ArrowRight className="ml-2 h-3 w-3" />
                 </Link>
@@ -150,7 +151,7 @@ export default function Home() {
             {/* Facial Treatments */}
             <div className="lg:col-span-2 group relative overflow-hidden rounded-3xl">
               <Image
-                src="/placeholder.svg?height=400&width=800"
+                src="/assets/facial.png?height=400&width=800"
                 alt="Facial treatments"
                 width={800}
                 height={400}
@@ -164,7 +165,7 @@ export default function Home() {
                 </p>
                 <Link
                   href="/services/facial"
-                  className="inline-flex items-center text-rose-300 hover:text-rose-200 transition-colors"
+                  className="inline-flex items-center text-[#0076CE] hover:text-rose-100 transition-colors"
                 >
                   Explore <ArrowRight className="ml-2 h-4 w-4" />
                 </Link>
@@ -197,7 +198,7 @@ export default function Home() {
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/30 to-transparent opacity-70" />
               </div>
-              <div className="absolute -bottom-6 -right-6 w-32 h-32 border border-rose-200 rounded-3xl"></div>
+              <div className="absolute -bottom-6 -right-6 w-32 h-32 border border-[#0076CE] rounded-3xl"></div>
             </div>
             <div className="lg:w-1/2 space-y-6">
               <h2 className="text-3xl md:text-4xl font-light text-gray-900">Our Story</h2>

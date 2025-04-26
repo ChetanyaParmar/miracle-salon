@@ -64,7 +64,7 @@ export default function Header() {
                 key={item.name}
                 href={item.href}
                 className={cn(
-                  "text-sm hover:text-rose-300 transition-colors duration-300",
+                  "text-sm hover:text-[#0076CE] transition-colors duration-300",
                   pathname === item.href ? "text-rose-300" : "",
                   isScrolled || pathname !== "/" ? "text-gray-900" : "text-white",
                 )}
@@ -82,7 +82,7 @@ export default function Header() {
                 className={cn(
                   "rounded-full transition-all duration-300",
                   isScrolled || pathname !== "/"
-                    ? "bg-rose-300 hover:bg-rose-400 text-white"
+                    ? "bg-[#0076CE] hover:bg-[#C6E6FB] text-white"
                     : "bg-white/20 hover:bg-white/30 text-white backdrop-blur-sm",
                 )}
               >
@@ -133,7 +133,7 @@ export default function Header() {
             </div>
             <div className="mt-auto pb-8 text-center">
               <Link href="/contact" onClick={() => setIsMenuOpen(false)}>
-                <Button size="lg" className="w-full bg-rose-300 hover:bg-rose-400 text-white rounded-full">
+                <Button size="lg" className="w-full bg-[#B0E0E6] hover:bg-[#B0E0E6] text-white rounded-full">
                   <Phone className="mr-2 h-4 w-4" /> Book Now
                 </Button>
               </Link>

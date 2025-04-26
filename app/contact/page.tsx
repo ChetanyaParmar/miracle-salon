@@ -38,7 +38,7 @@ export default function ContactPage() {
                 </div>
                 <div>
                   <h3 className="font-medium text-gray-900 mb-1">Phone</h3>
-                  <p className="text-gray-600">(123) 456-7890</p>
+                  <p className="text-gray-600">+91-8349334125</p>
                 </div>
               </div>
 
@@ -48,7 +48,7 @@ export default function ContactPage() {
                 </div>
                 <div>
                   <h3 className="font-medium text-gray-900 mb-1">Email</h3>
-                  <p className="text-gray-600">info@miraclesalon.com</p>
+                  <p className="text-gray-600">cp212428@gmail.com</p>
                 </div>
               </div>
 
@@ -59,9 +59,9 @@ export default function ContactPage() {
                 <div>
                   <h3 className="font-medium text-gray-900 mb-1">Address</h3>
                   <p className="text-gray-600">
-                    123 Beauty Street
+                    Shop No.3,TIT Complex,Sanjit Road
                     <br />
-                    New York, NY 10001
+                    Mandsaur, 458001
                   </p>
                 </div>
               </div>
@@ -73,18 +73,14 @@ export default function ContactPage() {
                 <div>
                   <h3 className="font-medium text-gray-900 mb-1">Hours</h3>
                   <p className="text-gray-600">
-                    Monday - Friday: 9am - 8pm
-                    <br />
-                    Saturday: 9am - 6pm
-                    <br />
-                    Sunday: 10am - 4pm
+                    Monday - Sunday: 10am - 10:30pm  
                   </p>
                 </div>
               </div>
             </div>
 
             <Button size="lg" className="w-full bg-rose-300 hover:bg-rose-400 text-white rounded-full px-8 h-12">
-              <Phone className="mr-2 h-4 w-4" /> Call to Book: (123) 456-7890
+              <Phone className="mr-2 h-4 w-4" /> Call to Book: +91-8349334125
             </Button>
           </div>
 

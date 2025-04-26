@@ -61,6 +61,7 @@ const config = {
       },
       fontFamily: {
         sans: ["var(--font-inter)"],
+        Folies:["Folies","sans-serif"]
       },
     },
   },

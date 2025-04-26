@@ -29,8 +29,8 @@ export default function AboutPage() {
             beauty destination.
           </p>
           <p className="text-neutral-600 mb-4">
-            Our founder, Jane Smith, had a vision to create a space where clients could transform their look and boost
-            their confidence. With over 20 years of experience in the beauty industry, Jane assembled a team of talented
+            Our founder, Mr.Narendra Parmar, had a vision to create a space where clients could transform their look and boost
+            their confidence. With over 20 years of experience in the beauty industry, Narendra assembled a team of talented
             professionals who share her passion for beauty and client satisfaction.
           </p>
           <p className="text-neutral-600">
@@ -71,7 +71,7 @@ export default function AboutPage() {
       {/* Our Team */}
       <div className="mb-20">
         <h2 className="text-3xl font-bold text-center mb-12">Meet Our Team</h2>
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div className="grid grid-cols-1 sm:grid-cols-1 lg:grid-cols-3 gap-8">
           {teamMembers.map((member, index) => (
             <div key={index} className="text-center">
               <div className="mb-4 relative w-48 h-48 mx-auto rounded-full overflow-hidden">
@@ -102,29 +102,29 @@ export default function AboutPage() {
 
 const teamMembers = [
   {
-    name: "Jane Smith",
+    name: "Narendra Parmar",
     role: "Founder & Hair Stylist",
     image: "/placeholder.svg?height=300&width=300",
     description:
-      "With over 20 years of experience, Jane is a master stylist specializing in cutting-edge hair techniques.",
+      "With over 20 years of experience, Narendra is a master stylist specializing in cutting-edge hair techniques.",
   },
   {
-    name: "Michael Johnson",
-    role: "Senior Hair Stylist",
+    name: "Kunal Parmar",
+    role: "Hair Stylist",
     image: "/placeholder.svg?height=300&width=300",
     description:
-      "Michael's creative approach to hair styling has earned him a loyal clientele and industry recognition.",
+      "Kunal's creative approach to hair styling has earned him a loyal clientele and industry recognition.",
   },
   {
-    name: "Emily Chen",
+    name: "Jyoti Parmar",
     role: "Makeup Artist",
     image: "/placeholder.svg?height=300&width=300",
-    description: "Emily's attention to detail and knowledge of color theory make her an exceptional makeup artist.",
+    description: "Jyoti's attention to detail and knowledge of color theory make her an exceptional makeup artist.",
   },
-  {
-    name: "Sarah Williams",
-    role: "Nail Technician",
-    image: "/placeholder.svg?height=300&width=300",
-    description: "Sarah's precision and artistic flair have made her one of our most requested nail technicians.",
-  },
+  // {
+  //   name: "Sarah Williams",
+  //   role: "Nail Technician",
+  //   image: "/placeholder.svg?height=300&width=300",
+  //   description: "Sarah's precision and artistic flair have made her one of our most requested nail technicians.",
+  // },
 ]

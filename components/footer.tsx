@@ -15,15 +15,15 @@ export default function Footer() {
               Where beauty meets innovation. Professional hair styling, makeup, nail care, and facial treatments.
             </p>
             <div className="flex space-x-4">
-              <Link href="#" className="text-white/70 hover:text-rose-300 transition-colors">
+              <Link href="https://www.instagram.com/miracle_salon_academy?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" className="text-white/70 hover:text-[#B0E0E6] transition-colors">
                 <Instagram className="h-5 w-5" />
                 <span className="sr-only">Instagram</span>
               </Link>
-              <Link href="#" className="text-white/70 hover:text-rose-300 transition-colors">
+              <Link href="#" className="text-white/70 hover:text-[#B0E0E6] transition-colors">
                 <Facebook className="h-5 w-5" />
                 <span className="sr-only">Facebook</span>
               </Link>
-              <Link href="#" className="text-white/70 hover:text-rose-300 transition-colors">
+              <Link href="#" className="text-white/70 hover:text-[#B0E0E6] transition-colors">
                 <Twitter className="h-5 w-5" />
                 <span className="sr-only">Twitter</span>
               </Link>
@@ -62,19 +62,19 @@ export default function Footer() {
             <h3 className="text-white text-lg font-light mb-6">Contact</h3>
             <ul className="space-y-4">
               <li className="flex items-center">
-                <Phone className="h-4 w-4 mr-3 text-rose-300" />
-                <span>(123) 456-7890</span>
+                <Phone className="h-4 w-4 mr-3 text-[#B0E0E6]" />
+                <span>+91-8349334125</span>
               </li>
               <li className="flex items-center">
-                <Mail className="h-4 w-4 mr-3 text-rose-300" />
-                <span>info@miraclesalon.com</span>
+                <Mail className="h-4 w-4 mr-3 text-[#B0E0E6]" />
+                <span>cp212428@gmail.com</span>
               </li>
               <li className="flex items-start">
-                <MapPin className="h-4 w-4 mr-3 mt-1 text-rose-300" />
+                <MapPin className="h-4 w-4 mr-3 mt-1 text-[#B0E0E6]" />
                 <span>
-                  123 Beauty Street
+                  Shop No.3,TIT Complex,Sanjit Road 
                   <br />
-                  New York, NY 10001
+                  Mandsaur, 458001
                 </span>
               </li>
             </ul>
@@ -84,9 +84,8 @@ export default function Footer() {
           <div>
             <h3 className="text-white text-lg font-light mb-6">Hours</h3>
             <ul className="space-y-4">
-              <li className="text-sm">Monday - Friday: 9am - 8pm</li>
-              <li className="text-sm">Saturday: 9am - 6pm</li>
-              <li className="text-sm">Sunday: 10am - 4pm</li>
+              <li className="text-sm">Monday - Sunday: 10am - 10:30pm</li>
+              
             </ul>
           </div>
         </div>
