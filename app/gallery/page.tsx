@@ -26,31 +26,31 @@ export default function GalleryPage() {
             <TabsList className="bg-gray-50 p-1 rounded-full">
               <TabsTrigger
                 value="all"
-                className="rounded-full text-gray-700 data-[state=active]:bg-rose-300 data-[state=active]:text-white px-8"
+                className="rounded-full text-gray-700 data-[state=active]:bg-[#0076CE] data-[state=active]:text-white px-8"
               >
                 All
               </TabsTrigger>
               <TabsTrigger
                 value="hair"
-                className="rounded-full text-gray-700 data-[state=active]:bg-rose-300 data-[state=active]:text-white px-8"
+                className="rounded-full text-gray-700 data-[state=active]:bg-[#0076CE] data-[state=active]:text-white px-8"
               >
                 Hair
               </TabsTrigger>
               <TabsTrigger
                 value="makeup"
-                className="rounded-full text-gray-700 data-[state=active]:bg-rose-300 data-[state=active]:text-white px-8"
+                className="rounded-full text-gray-700 data-[state=active]:bg-[#0076CE] data-[state=active]:text-white px-8"
               >
                 Makeup
               </TabsTrigger>
               <TabsTrigger
                 value="nails"
-                className="rounded-full text-gray-700 data-[state=active]:bg-rose-300 data-[state=active]:text-white px-8"
+                className="rounded-full text-gray-700 data-[state=active]:bg-[#0076CE] data-[state=active]:text-white px-8"
               >
                 Nails
               </TabsTrigger>
               <TabsTrigger
                 value="facial"
-                className="rounded-full text-gray-700 data-[state=active]:bg-rose-300 data-[state=active]:text-white px-8"
+                className="rounded-full text-gray-700 data-[state=active]:bg-[#0076CE] data-[state=active]:text-white px-8"
               >
                 Facial
               </TabsTrigger>

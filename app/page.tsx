@@ -190,7 +190,7 @@ export default function Home() {
             <div className="lg:w-1/2 relative">
               <div className="relative rounded-3xl overflow-hidden">
                 <Image
-                  src="/placeholder.svg?height=700&width=600"
+                  src="/assets/recept.png?height=700&width=600"
                   alt="Salon team"
                   width={600}
                   height={700}

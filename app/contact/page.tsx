@@ -33,8 +33,8 @@ export default function ContactPage() {
 
             <div className="bg-gray-50 p-10 rounded-3xl space-y-8">
               <div className="flex items-center">
-                <div className="w-12 h-12 rounded-full bg-rose-100 flex items-center justify-center mr-4">
-                  <Phone className="h-5 w-5 text-rose-400" />
+                <div className="w-12 h-12 rounded-full bg-[#0076CE] flex items-center justify-center mr-4">
+                  <Phone className="h-5 w-5 text-rose-100" />
                 </div>
                 <div>
                   <h3 className="font-medium text-gray-900 mb-1">Phone</h3>
@@ -43,8 +43,8 @@ export default function ContactPage() {
               </div>
 
               <div className="flex items-center">
-                <div className="w-12 h-12 rounded-full bg-rose-100 flex items-center justify-center mr-4">
-                  <Mail className="h-5 w-5 text-rose-400" />
+                <div className="w-12 h-12 rounded-full bg-[#0076CE] flex items-center justify-center mr-4">
+                  <Mail className="h-5 w-5 text-rose-100" />
                 </div>
                 <div>
                   <h3 className="font-medium text-gray-900 mb-1">Email</h3>
@@ -53,8 +53,8 @@ export default function ContactPage() {
               </div>
 
               <div className="flex items-start">
-                <div className="w-12 h-12 rounded-full bg-rose-100 flex items-center justify-center mr-4 mt-1">
-                  <MapPin className="h-5 w-5 text-rose-400" />
+                <div className="w-12 h-12 rounded-full bg-[#0076CE] flex items-center justify-center mr-4 mt-1">
+                  <MapPin className="h-5 w-5 text-rose-100" />
                 </div>
                 <div>
                   <h3 className="font-medium text-gray-900 mb-1">Address</h3>
@@ -67,8 +67,8 @@ export default function ContactPage() {
               </div>
 
               <div className="flex items-start">
-                <div className="w-12 h-12 rounded-full bg-rose-100 flex items-center justify-center mr-4 mt-1">
-                  <Clock className="h-5 w-5 text-rose-400" />
+                <div className="w-12 h-12 rounded-full bg-[#0076CE] flex items-center justify-center mr-4 mt-1">
+                  <Clock className="h-5 w-5 text-rose-100" />
                 </div>
                 <div>
                   <h3 className="font-medium text-gray-900 mb-1">Hours</h3>
@@ -79,7 +79,7 @@ export default function ContactPage() {
               </div>
             </div>
 
-            <Button size="lg" className="w-full bg-rose-300 hover:bg-rose-400 text-white rounded-full px-8 h-12">
+            <Button size="lg" className="w-full bg-[#0076CE] hover:bg-rose-100 text-white rounded-full px-8 h-12">
               <Phone className="mr-2 h-4 w-4" /> Call to Book: +91-8349334125
             </Button>
           </div>
@@ -162,7 +162,7 @@ export default function ContactPage() {
                 />
               </div>
 
-              <Button type="submit" className="w-full bg-rose-300 hover:bg-rose-400 text-white rounded-full px-8 h-12">
+              <Button type="submit" className="w-full bg-[#0076CE] hover:bg-rose-100 text-white rounded-full px-8 h-12">
                 Send Message
               </Button>
             </form>

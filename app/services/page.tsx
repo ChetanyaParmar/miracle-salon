@@ -44,20 +44,20 @@ export default function ServicesPage() {
             </div>
             <div className="lg:w-1/2 space-y-6">
               <div className="flex items-center">
-                <service.icon className="w-6 h-6 mr-3 text-rose-300" />
+                <service.icon className="w-6 h-6 mr-3 text-[#0076CE]" />
                 <h2 className="text-3xl font-light text-gray-900">{service.title}</h2>
               </div>
               <p className="text-gray-600 leading-relaxed">{service.description}</p>
               <ul className="space-y-4">
                 {service.offerings.map((offering, i) => (
                   <li key={i} className="flex items-start">
-                    <span className="text-rose-300 mr-3">•</span>
+                    <span className="text-[#0076CE] mr-3">•</span>
                     <span className="text-gray-600">{offering}</span>
                   </li>
                 ))}
               </ul>
               <Link href={`/services/${service.slug}`}>
-                <Button className="bg-rose-300 hover:bg-rose-400 text-white rounded-full px-8 h-12">
+                <Button className="bg-[#0076CE] hover:bg-rose-100 text-white rounded-full px-8 h-12">
                   Explore {service.title}
                 </Button>
               </Link>
@@ -73,7 +73,7 @@ export default function ServicesPage() {
             Book your appointment today and experience the Miracle difference.
           </p>
           <Link href="/contact">
-            <Button size="lg" className="bg-rose-300 hover:bg-rose-400 text-white rounded-full px-8 h-12">
+            <Button size="lg" className="bg-[#0076CE] hover:bg-rose-100 text-white rounded-full px-8 h-12">
               Book Your Appointment
             </Button>
           </Link>
