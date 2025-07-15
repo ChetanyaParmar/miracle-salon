@@ -80,7 +80,9 @@ export default function ContactPage() {
             </div>
 
             <Button size="lg" className="w-full bg-[#0076CE] hover:bg-rose-100 text-white rounded-full px-8 h-12">
-              <Phone className="mr-2 h-4 w-4" /> Call to Book: +91-8349334125
+              <a href="tel:+918349334125">
+                Call to Book: +91-8349334125
+              </a>
             </Button>
           </div>
 

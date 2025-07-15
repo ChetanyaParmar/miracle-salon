@@ -111,7 +111,7 @@ const teamMembers = [
   {
     name: "Kunal Parmar",
     role: "Hair Stylist",
-    image: "/placeholder.svg?height=300&width=300",
+    image: "/assets/kunal.jpg?height=300&width=300",
     description:
       "Kunal's creative approach to hair styling has earned him a loyal clientele and industry recognition.",
   },

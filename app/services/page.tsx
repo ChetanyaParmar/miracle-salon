@@ -7,7 +7,7 @@ export default function ServicesPage() {
   return (
     <div className="bg-white">
       <div className="relative h-[60vh] flex items-center justify-center">
-        <Image src="/placeholder.svg?height=600&width=1600" alt="Services" fill className="object-cover" />
+        <Image src="/assets/service.jpg?height=600&width=1600" alt="Services" fill className="object-cover" />
         <div className="absolute inset-0 bg-gradient-to-r from-black/70 via-black/50 to-transparent" />
         <div className="relative z-10 container mx-auto px-4">
           <div className="max-w-2xl">
